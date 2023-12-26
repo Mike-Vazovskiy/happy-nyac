@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "RoobertPRO";
+    src: url("/fonts/RoobertPRO-Regular.ttf")
+}
+
+body { 
+    margin:0;
+    background:#000; 
+}
+
+canvas { 
+    position:absolute; 
+    display:block; 
+    z-index:100; 
+}
+
+a { 
+    color:white; 
+    text-decoration:none; 
+}
+
+#copyright { 
+    color:white; 
+    font-family:arial; 
+    font-size:12px; 
+    position:absolute; 
+    right:0; 
+    bottom:0; 
+    z-index:1000; 
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+p {
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: #fff;
+    z-index: 12000;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'RobertPRO';
+}
